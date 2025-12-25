@@ -13,3 +13,5 @@ onto the next face adjacent to the current face's right edge (so to read you wou
 Eventually I will add information to the top and bottom of the cube that will include text saying what it is, an indicator for where to start the decoding, maybe some error correction, and other metadata. Also eventually I'll implement
 some code to simplify the mesh because it gets quite complex very quickly.
 
+Yes I know it looks like a Borg Cube :)
+
