@@ -1,8 +1,3 @@
-# Data is written onto the cube starting in the bottom left corner of the first face, then going along the row
-# until it reaches the end, then it moves up 1 row and starts on the left again. Once a face is filled up in this
-# pattern it moves onto the next face adjacent to the current face's right edge (so to read you would rotate the cube
-# clockwise after reading each face bottom to top).
-
 import math
 from tqdm import tqdm
 
@@ -351,3 +346,4 @@ with open(file_name, "w") as file:
 
 print("Object file created as 'new_obj.stl'")
 print(f"Object dimensions: {sideWidth / 10}cm^3")
+
