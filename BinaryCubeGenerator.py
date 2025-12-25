@@ -62,8 +62,9 @@ def simplify_mesh(complex_mesh):
 
 
 # input and process data
+upload_file = "text1.txt" # takes any file format that can be converted to binary with the format() function
 binaryDataList = []
-with open("imgx16.png", "rb") as file:
+with open(upload_file, "rb") as file:
     fileContent = file.read()
     for byte in tqdm(fileContent,
         desc="Processing File",
@@ -346,4 +347,5 @@ with open(file_name, "w") as file:
 
 print("Object file created as 'new_obj.stl'")
 print(f"Object dimensions: {sideWidth / 10}cm^3")
+
 
