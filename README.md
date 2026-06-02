@@ -15,3 +15,6 @@ some code to simplify the mesh because it gets quite complex very quickly.
 
 Yes I know it looks like a Borg Cube :)
 
+----- Known Problems -----
+
+Technically a lot of the triangles in the mesh the program spits out are inside-out. It doesn't matter too much if you just want to print the model as is, but it does make modifications difficult.
